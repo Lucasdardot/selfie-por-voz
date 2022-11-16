@@ -40,7 +40,7 @@ function falar(){
     var synth = window.speechSynthesis
     var speakdata = "tirando selfie em 3 segundos"
     var utterThis = new SpeechSynthesisUtterance(speakdata)
-    synth.falar(utterThis)
+    synth.speak(utterThis)
     Webcam.attach(camera)
     setTimeout(function()
     {
